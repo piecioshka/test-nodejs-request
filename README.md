@@ -1,6 +1,6 @@
 # test-nodejs-request
 
-[![travis](https://img.shields.io/travis/piecioshka/test-nodejs-request.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/test-nodejs-request)
+[![travis](https://img.shields.io/travis/piecioshka/test-nodejs-request.svg)](https://travis-ci.org/piecioshka/test-nodejs-request)
 [![dependencies](https://david-dm.org/piecioshka/test-nodejs-request.svg)](https://github.com/piecioshka/test-nodejs-request)
 [![codecov](https://codecov.io/gh/piecioshka/test-nodejs-request/branch/master/graph/badge.svg)](https://codecov.io/gh/piecioshka/test-nodejs-request)
 
