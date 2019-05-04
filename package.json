@@ -15,21 +15,20 @@
         "test": "npm run test:mocha",
         "test:mocha": "mocha",
         "test:mocha:watch": "mocha --watch",
-        "coverage": "nyc npm run test && nyc report --reporter=html",
-        "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+        "coverage": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
         "lint": "eslint ."
     },
     "dependencies": {},
     "devDependencies": {
         "chai": "^4.2.0",
-        "codecov": "^3.1.0",
-        "eslint": "^5.11.0",
+        "coveralls": "^3.0.3",
+        "eslint": "^5.16.0",
         "eslint-config-piecioshka": "^2.0.1",
-        "jasmine": "^3.3.1",
-        "mocha": "^5.2.0",
+        "jasmine": "^3.4.0",
+        "mocha": "^6.1.4",
         "nock": "^10.0.6",
-        "nyc": "^13.1.0"
+        "nyc": "^14.1.0"
     },
     "repository": {
         "type": "git",
