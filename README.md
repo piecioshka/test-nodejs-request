@@ -1,7 +1,6 @@
 # test-nodejs-request
 
 [![travis](https://img.shields.io/travis/piecioshka/test-nodejs-request.svg)](https://travis-ci.org/piecioshka/test-nodejs-request)
-[![dependencies](https://david-dm.org/piecioshka/test-nodejs-request.svg)](https://github.com/piecioshka/test-nodejs-request)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/test-nodejs-request/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/test-nodejs-request?branch=master)
 
 :ledger: Testing making requests in pure Node.js
