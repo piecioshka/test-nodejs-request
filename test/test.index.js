@@ -15,10 +15,7 @@ nock(URL)
     .get('/')
     .reply(STATUS_OK, RESPONSE_OK)
     .get('/text')
-    .reply(STATUS_OK, RESPONSE_TEXT)
-    .log((msg, ...params) => {
-        console.log(`[NOCK] ${msg} ${params}`);
-    });
+    .reply(STATUS_OK, RESPONSE_TEXT);
 
 it('is a function', () => {
     assert.isFunction(makeRequest);
