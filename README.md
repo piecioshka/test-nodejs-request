@@ -1,6 +1,6 @@
 # test-nodejs-request
 
-[![travis-ci](https://api.travis-ci.com/piecioshka/test-nodejs-request.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/test-nodejs-request)
+[![github-ci](https://github.com/piecioshka/test-nodejs-request/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/test-nodejs-request/actions/workflows/testing.yml)
 
 :ledger: Testing making requests in pure Node.js
 
